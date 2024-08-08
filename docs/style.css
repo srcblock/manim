@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: ghostwhite;
+    font-family: "Verdana";
+}
+
+.banner {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-image: url("banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner-section {
+    position: relative;
+    padding: 75px 150px;
+    max-width: 1280px;
+    margin: auto;
+    color: white;
+    font-family: "Verdana";
+}
+
+blockquote {
+    background: whitesmoke;
+    border-left: 4px solid slateblue;
+    margin: 1.5em 16px;
+    padding: 0.5em 12px;
+}
+
+h2 {
+    font-size: 1.75em;
+    margin-top: 0;
+    font-family: "Arial";
+    color: #330033;
+}
+
+.body-section {
+    position: relative;
+    background-color: white;
+    max-width: 1280px;
+    margin: auto 75px;
+    padding: 25px 50px;
+}
+
+.new-section {
+    position: relative;
+    display: inline-block;
+    background-color: ghostwhite;
+    margin: 25px auto;
+    padding: 30px;
+/*    max-width: 1440px;*/
+}
+
+.button1 {
+    --animation-color: #07f2f1;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: "Arial";
+    position: relative;
+    color: White;
+}
+
+.hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    text-shadow: 2px 2px 5px blueviolet;
+    width: 0%;
+    inset: 0;
+    border-right: 6px solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.button1:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 24px var(--animation-color))
+}
+
+
+.link-text {
+    position: absolute;
+    display: flex;
+    content: attr(data-text);
+    color: #b1d1fc;
+    color: var(--animation-color);
+    width: 0%;
+    font-size: 50%;
+    left: 15px;
+    bottom: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.button1:hover .link-text {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+video {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+img {
+    pointer-events: none;
+}
+
+img.github {
+    content: url("https://img.shields.io/badge/Source-link?style=plastic&logo=github&logoColor=white&labelColor=grey&color=green");
+    height: 25px;
+    padding-right: 13px;
+}
+
+img.colab {
+    content: url("https://img.shields.io/badge/Colab-link?style=plastic&logo=googlecolab&labelColor=grey&color=blue");
+    height: 25px;
+    padding-right: 13px;
+}
+
+img.youtube {
+    content: url("https://img.shields.io/badge/YouTube-link?style=plastic&logo=youtube&logoColor=red&labelColor=grey&color=red");
+    height: 25px;
+}
+
