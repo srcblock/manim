@@ -124,18 +124,18 @@ img {
 
 img.github {
     content: url("https://img.shields.io/badge/Source-link?style=plastic&logo=github&logoColor=white&labelColor=grey&color=green");
-    height: 25px;
-    padding-right: 13px;
+    height: 24px;
+    padding-right: 12px;
 }
 
 img.colab {
     content: url("https://img.shields.io/badge/Colab-link?style=plastic&logo=googlecolab&labelColor=grey&color=blue");
-    height: 25px;
-    padding-right: 13px;
+    height: 24px;
+    padding-right: 12px;
 }
 
 img.youtube {
     content: url("https://img.shields.io/badge/YouTube-link?style=plastic&logo=youtube&logoColor=red&labelColor=grey&color=red");
-    height: 25px;
+    height: 24px;
 }
 
