@@ -111,12 +111,15 @@ a {
 }
 
 video {
-    width: 540px;
+    width: 720px;
+/*    min-width: 50%px;*/
+/*    width: 50%;*/
+
     float: left;
-    margin: 15px auto;
-    padding-right: 30px;
-/*    position: relative;*/
-/*    display: flex;*/
+    margin: auto;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
 }
 
 img {
