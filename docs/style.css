@@ -18,9 +18,14 @@ body {
 
 .banner-section {
     position: relative;
+/*    display: block;*/
     padding: 75px 175px;
     max-width: 1280px;
-    margin: auto;
+/*    justify-content: center;*/
+/*    margin: auto;*/
+margin: auto;
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
     color: white;
     font-family: "Verdana";
 }
@@ -111,12 +116,15 @@ a {
 }
 
 video {
-    max-width: 100%;
-    width: 720px;
+    max-width: 640px;
+/*    min-width: 640px;*/
+    width: 100%;
+/*    width: 720px;*/
     float: left;
     margin: 15px auto;
     padding-right: 30px;
 
+/*display: block;*/
 }
 
 img {
