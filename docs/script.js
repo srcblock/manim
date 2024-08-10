@@ -56,10 +56,10 @@ function firstSection() {
         The Manim Community Developers. <cite>Manim — Mathematical Animation Framework [Computer software].</cite><br><a href="https://https://www.manim.community/">www.manim.community</a>
     </blockquote>
 
-    <p>The animation scenes are rendered from Python scripts using Manim in Jupyter Notebook on Google Colab.</p>
+    <p>The animation scenes are rendered from <a href="https://www.python.org/"><strong>Python</strong></a> scripts using <a href="https://www.manim.community/"><strong>Manim</strong></a> in <a href="https://jupyter.org/"><strong>Jupyter Notebook</strong></a> on <a href="https://colab.google/"><strong>Google Colab</strong></a>.</p>
 
     <a href="https://colab.curiouswalk.com/manim">
-        <img src="https://img.shields.io/badge/Manim_in_Colab-link?style=flat&logo=googlecolab&labelColor=grey&color=blue" height="24px">
+        <img src="https://img.shields.io/badge/Manim_in_Colab-link?style=flat&logo=googlecolab&labelColor=grey&color=blue" height="25px">
     </a><br><a href="https://colab.curiouswalk.com/manim">colab.curiouswalk.com/manim</a>
 
 </div>
