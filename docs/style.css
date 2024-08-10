@@ -116,12 +116,13 @@ a {
 }
 
 video {
-    max-width: 640px;
+/*    max-width: 640px;*/
 /*    min-width: 640px;*/
-    width: 100%;
+    width: 50%;
+
 /*    width: 720px;*/
     float: left;
-    margin: 15px auto;
+    margin: auto;
     padding-right: 30px;
 
 /*display: block;*/
