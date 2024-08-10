@@ -111,15 +111,12 @@ a {
 }
 
 video {
+    max-width: 100%;
     width: 720px;
-/*    min-width: 50%px;*/
-/*    width: 50%;*/
-
     float: left;
-    margin: auto;
-    padding: 15px;
-    position: relative;
-    display: inline-block;
+    margin: 15px auto;
+    padding-right: 30px;
+
 }
 
 img {
