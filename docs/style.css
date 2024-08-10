@@ -40,7 +40,7 @@ blockquote {
 h2 {
     font-size: 2em;
     margin: 0;
-    margin-bottom: 10px;
+    padding-bottom: 20px;
     font-family: "Arial";
     color: #330033;
 }
@@ -116,16 +116,11 @@ a {
 }
 
 video {
-/*    max-width: 640px;*/
-/*    min-width: 640px;*/
     width: 50%;
-
-/*    width: 720px;*/
     float: left;
     margin: auto;
     padding-right: 30px;
-
-/*display: block;*/
+/*    padding-bottom: 5px;*/
 }
 
 img {
@@ -135,21 +130,21 @@ img {
 img.github {
     content: url("https://img.shields.io/badge/Source-link?style=plastic&logo=github&logoColor=white&labelColor=grey&color=green");
     height: 25px;
-    margin-top: 15px;
+/*    margin-top: 15px;*/
     padding-right: 13px;
 }
 
 img.colab {
     content: url("https://img.shields.io/badge/Colab-link?style=plastic&logo=googlecolab&labelColor=grey&color=blue");
     height: 25px;
-    margin-top: 15px;
+/*    margin-top: 15px;*/
     padding-right: 13px;
 }
 
 img.youtube {
     content: url("https://img.shields.io/badge/YouTube-link?style=plastic&logo=youtube&logoColor=red&labelColor=grey&color=red");
     height: 25px;
-    margin-top: 15px;
-    padding-right: 13px;
+/*    margin-top: 15px;*/
+/*    padding-right: 13px;*/
 }
 
