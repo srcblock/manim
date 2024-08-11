@@ -73,7 +73,8 @@ function footerSection() {
     document.getElementById('footer-section').innerHTML = `
  <footer style="margin: 0;">
   <p style="color: slategray; text-align: center; margin: 25px auto;">
-    Copyright &copy; ${year} CuriousWalk
+      Copyright &copy; ${year} CuriousWalk<br>
+      <a href="https://www.curiouswalk.com">www.curiouswalk.com</a>
   </p>
 </footer>
 `;
