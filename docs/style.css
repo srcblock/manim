@@ -111,6 +111,13 @@ a {
     text-decoration: none;
 }
 
+@media screen and (max-width: 767px){
+ 
+    font-size: 12px !important;
+ 
+}
+
+
 h2 a {
     color: #380282;
 /*  background:
