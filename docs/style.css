@@ -2,7 +2,13 @@ body {
     margin: 0;
     background-color: ghostwhite;
     font-family: "Verdana";
-    text-size-adjust: none;
+/*     text-size-adjust: none; */
+
+    @media only screen and (max-width: 300px) {
+    
+    font-size: 12px;
+
+}
 }
 
 
@@ -111,11 +117,7 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 480px) {
-    
-    font-size: 12px;
 
-}
 
 
 h2 a {
