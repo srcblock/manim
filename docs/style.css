@@ -2,7 +2,9 @@ body {
     margin: 0;
     background-color: ghostwhite;
     font-family: "Verdana";
+    text-size-adjust: none;
 }
+
 
 .header-section {
     position: fixed;
