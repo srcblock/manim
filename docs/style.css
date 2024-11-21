@@ -4,11 +4,13 @@ body {
     font-family: "Verdana";
 /*     text-size-adjust: none; */
 
-    @media only screen and (max-width: 50px) {
+    
+}
+
+@media only screen and (max-width: 50px) {
     
     font-size: 10px;
 
-}
 }
 
 
