@@ -111,17 +111,19 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 720px){
  
-    font-size: 12px;
- 
+    font-size: 14px;
+    .yt {
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width: 100%;
+/*     float: left; */
+    margin: auto;
+/*     padding-right: 30px; */
+/*    position: relative;*/
 }
-
-@media only screen and (max-device-width: 480px) {
-    html {
-      height: calc(100% + 60px);
-      min-height: calc(100% + 60px);
-    }
+ 
 }
 
 
