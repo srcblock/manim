@@ -59,7 +59,7 @@ function aboutSection() {
     <p>The animation scenes are scripted in <a href="https://www.python.org/">Python</a> and rendered with <a href="https://www.manim.community/">Manim</a> in <a href="https://jupyter.org/">Jupyter Notebook</a> on <a href="https://colab.google/">Google Colab</a>.</p>
 
     <a href="https://colab.curiouswalk.com/manim">
-        <img src="https://img.shields.io/badge/Manim_in_Colab-link?style=flat&logo=googlecolab&labelColor=grey&color=blue" height="24px">
+        <img src="https://img.shields.io/badge/Manim_in_Colab-link?style=flat&logo=googlecolab&labelColor=grey&color=blue" height="26px">
     </a><br><a href="https://colab.curiouswalk.com/manim">colab.curiouswalk.com/manim</a>
 
 </div>
@@ -83,55 +83,53 @@ function footerSection() {
 footerSection();
 
 
-
 let vid = '';
 
-    var v = document.getElementsByClassName("vid");
+let github_url = 'https://github.com/curiouswalk/manimscene/tree/main/source/'
 
-    for (var n = 0; n < v.length; n++) {
+let colab_url = 'https://colab.research.google.com/github/curiouswalk/manimscene/blob/main/source/'
+
+let youtube_url = 'https://www.youtube.com/watch?v='
+
+var v = document.getElementsByClassName("vid");
+
+for (var n = 0; n < v.length; n++) {
 
     let id = v[n].getAttribute("id");
 
-    let imageHtml = '<a href="javascript:void(0)" onclick=playYT("'+id+'")><img class="yt" src="images/'+id+'.jpg"/></a>';
-    document.getElementById(id).innerHTML=imageHtml;
-    }
+    let path = v[n].getAttribute("path");
+
+    let title = v[n].getAttribute("title");
+
+    let html = '<h2><a href="'+github_url+path+'">'+title+'</a></h2>';
+
+    html += '<div id="vid_+'+id+'" ><a href="javascript:void(0)" onclick=playYT("'+id+'")><img class="yt" src="images/'+id+'.jpg"/></a></div>';
+
+    html += '<div class="icon"> <a href="'+colab_url+path+'/'+path+'.ipynb"><img class="colab"></a>';
+
+    html += '<a href="'+github_url+path+'"><img class="github"></a>';
+
+    html += '<a href="'+youtube_url+id+'"><img class="youtube"></a></div>';
+
+    document.getElementById(id).innerHTML=html;
+
+}
     
     
-    function playYT(id) {
+function playYT(id) {
 
-        if (vid!= ''){
-            let imageHtml = '<a href="javascript:void(0)" onclick=playYT("'+vid+'")><img class="yt" src="images/'+vid+'.jpg"/></a>';
-        document.getElementById(vid).innerHTML=imageHtml;
-    }
+    if (vid!= ''){
+        let imageHtml = '<div id="vid_+'+vid+'" ><a href="javascript:void(0)" onclick=playYT("'+vid+'")><img class="yt" src="images/'+vid+'.jpg"/></a></div>';
+        document.getElementById('vid_+'+vid).innerHTML=imageHtml;
+}
 
-        vid = id;
-   
-     let html='<iframe class="yt" src="https://www.youtube.com/embed/'+vid+'?autoplay=1" allow="autoplay" frameborder="0"></iframe>';
-        document.getElementById(vid).innerHTML=html;
+    vid = id;
 
-    }
+ let html='<div id="vid_+'+vid+'" ><iframe class="yt" src="https://www.youtube.com/embed/'+vid+'?autoplay=1" allow="autoplay" frameborder="0"></iframe></div>';
+    document.getElementById('vid_+'+vid).innerHTML=html;
 
+}   
 
-
-
-
-// let vid = '';
-//     function playYt(id) {
-//         if (vid!= ''){
-
-//         let imageHtml = '<a href="javascript:void(0)" onclick=playYt("'+vid+'")><img class="yt" src="https://img.youtube.com/vi/'+vid+'/hqdefault.jpg"/></a>';
-//         document.getElementById(vid).innerHTML=imageHtml;
-//     }
-
-//         vid = id;
-   
-
-//      let html='<iframe class="yt" src="https://www.youtube.com/embed/'+vid+'?autoplay=1" allow="autoplay" frameborder="0"></iframe>';
-//         document.getElementById(vid).innerHTML=html;
-
-//     }
-
-// playYt(id);
 
 parallaxHeight();
 
