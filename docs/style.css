@@ -2,17 +2,7 @@ body {
     margin: 0;
     background-color: ghostwhite;
     font-family: "Verdana";
-/*     text-size-adjust: none; */
-
-    
 }
-
-@media only screen and (max-width: 50px) {
-    
-    font-size: 10px;
-
-}
-
 
 .header-section {
     position: fixed;
@@ -29,7 +19,7 @@ body {
 .banner-section {
     position: relative;
     padding: 75px 175px;
-    max-width: 1440px;
+    max-width: 1080px;
     margin: auto;
     color: white;
     font-family: "Verdana";
@@ -45,7 +35,8 @@ blockquote {
 h2 {
     font-size: 2em;
     margin: auto;
-    padding-bottom: 20px;
+/*    padding-bottom: 20px;*/
+/*padding-top: 0px;*/
     font-family: "Arial";
     color: #330033;
 }
@@ -62,8 +53,8 @@ h2 {
     position: relative;
     display: inline-block;
     background-color: ghostwhite;
-    margin: 25px auto;
-    padding: 30px;
+    margin: 20px;
+    padding: 40px;
 }
 
 .button {
@@ -119,28 +110,8 @@ a {
     text-decoration: none;
 }
 
-
-
-
 h2 a {
     color: #380282;
-/*  background:
-    linear-gradient(
-      to right,
-      rgba(96, 25, 227, 1),
-      rgba(96, 25, 227, 1)
-    ),
-    linear-gradient(
-      to right,
-      rgba(25, 227, 197, 1),
-      rgba(96, 25, 227, 1),
-      rgba(25, 227, 197, 1)
-  );
-  padding-bottom: 4px;
-  background-size: 100% 5px, 100% 5px;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  transition: background-size 0.5s;*/
 }
 
 /*h2 a:hover {
@@ -170,9 +141,37 @@ h2 a:hover {
     height: auto;
     width: 50%;
     float: left;
+/*    position: relative;*/
+/*    min-width: 720px;*/
+/*    display: inline-grid;*/
     margin: auto;
+    padding-top: 20px;
     padding-right: 30px;
 /*    position: relative;*/
+}
+.icon{
+    display: inline-block;
+    padding-top: 20px;
+
+
+}
+
+@media screen and (max-width:1080px){
+    /* STYLES HERE for BROWSER WINDOWS with a max-width of 480px. 
+       This will work on desktops when the window is narrowed.  */
+
+       .yt {
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width: 100%;
+/*    float: left;*/
+/*    position: relative;*/
+/*    max-width: 720px;*/
+/*    display: inline-grid;*/
+    margin: auto;
+/*    padding-bottom: 25px;*/
+/*    position: relative;*/
+}
 }
 
 
@@ -189,18 +188,18 @@ video {
 
 img.github {
     content: url("https://img.shields.io/badge/Source-link?style=plastic&logo=github&logoColor=white&labelColor=grey&color=green");
-    height: 25px;
-    padding-right: 15px;
+    height: 28px;
+    padding-right: 20px;
 }
 
 img.colab {
     content: url("https://img.shields.io/badge/Animate-link?style=plastic&logo=googlecolab&labelColor=grey&color=blue");
-    height: 25px;
-    padding-right: 15px;
+    height: 28px;
+    padding-right: 20px;
 }
 
 img.youtube {
     content: url("https://img.shields.io/badge/Video-link?style=plastic&logo=youtube&logoColor=red&labelColor=grey&color=red");
-    height: 25px;
+    height: 28px;
 }
 
