@@ -48,7 +48,7 @@ headerSection();
 
 function aboutSection() {
     document.getElementById('about').innerHTML = `
-<div class="scene" style="display: block;">
+<div class="scene">
 
     <strong>Manim</strong> is an animation engine designed to program precise animations for explanatory math videos.
 
