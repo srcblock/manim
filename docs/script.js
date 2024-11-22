@@ -85,11 +85,11 @@ footerSection();
 
 let vid = '';
 
-let github_url = 'https://github.com/curiouswalk/manimscene/tree/main/source/'
+let github_url = 'https://github.com/curiouswalk/manimscene/tree/main/source/';
 
-let colab_url = 'https://colab.research.google.com/github/curiouswalk/manimscene/blob/main/source/'
+let colab_url = 'https://colab.research.google.com/github/curiouswalk/manimscene/blob/main/source/';
 
-let youtube_url = 'https://www.youtube.com/watch?v='
+let youtube_url = 'https://www.youtube.com/watch?v=';
 
 var v = document.getElementsByClassName("vid");
 
