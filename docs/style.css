@@ -156,22 +156,6 @@ h2 a:hover {
 
 }
 
-@media only screen and (max-width:1080px){
-
-       .yt {
-    aspect-ratio: 16 / 9;
-    height: auto;
-    width: 100%;
-/*    float: left;*/
-/*    position: relative;*/
-/*    max-width: 720px;*/
-/*    display: inline-grid;*/
-    margin: auto;
-/*    padding-bottom: 25px;*/
-/*    position: relative;*/
-}
-}
-
 
 video {
     width: 50%;
