@@ -59,11 +59,11 @@ from mscene.fractal import *
 %%manim -qm PluginScene
 class PluginScene(Scene):
     def construct(self):
-        koch_snowflake = KochSnowflake(1)
-        self.add(koch_snowflake)
-        self.play(koch_snowflake.create())
+        ks = KochSnowflake(2)
+        self.add(ks)
+        self.play(ks.animate.next_level())
         self.wait(1)
-        self.play(koch_snowflake.expand())
+        self.play(ks.animate.prev_level())
         self.wait(1)
 ```
 ---
