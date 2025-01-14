@@ -12,27 +12,29 @@ Manim is an animation engine designed to program precise animations for science 
 
 ### Program Animnations Onilne
 
-**Open Google Colab**<br>
+#### Open Google Colab
 [colab.research.google.com#create=true](http://colab.research.google.com#create=true)
 
-**Install Mscene**
+#### Install Mscene
   ```
   %pip install mscene
   ```
-**Import Mscene**
+#### Import Mscene
 ```
 import mscene
 ```
-**View Commands**
+#### View Commands
 ```
 %mscene -h
 ```
-**Setup Manim**
+#### Setup Manim
 ```
 %mscene -l manim
 ```
 
-**Example Scene**<br>View Manim [Gallery](https://docs.manim.community/en/stable/examples.html)
+#### Example Scene
+
+View Manim [Gallery](https://docs.manim.community/en/stable/examples.html)
 
 ```python
 %%manim -qm ExampleScene
@@ -45,16 +47,18 @@ class ExampleScene(Scene):
 ```
 
 
-**Add Plugin**<br>View Mscene [Plugins](https://docs.manim.community/en/stable/examples.html)
+#### Add Plugin
+
+View Mscene [Plugins](https://docs.manim.community/en/stable/examples.html)
 ```
 %mscene plugin
 ```
 
-**Import Plugin**
+#### Import Plugin
 ```
 from mscene.fractal import *
 ```
-**Plugin Scene**
+#### Plugin Scene
 ```python
 %%manim -qm PluginScene
 class PluginScene(Scene):
