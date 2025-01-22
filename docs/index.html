@@ -8,16 +8,10 @@
     <title>Mscene Plugins</title>
     <style>
 
-        /*html {
-            overflow: hidden;
-            height: 100%;
-        }*/
+        
         body {
             font-family: Arial, sans-serif;
             margin: auto;
-
-            /*height: 100%;
-            overflow: auto;*/
             background-color: whitesmoke;
         }
         a {
@@ -50,7 +44,8 @@
             list-style-type: none;
             position: relative;
         }
-        .container h1{
+        .container h2{
+            font-size: 2em;
             padding-left: 25px;
             text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
@@ -65,6 +60,7 @@
         }
         .plugin h3{
             margin: 0;
+            font-size: 1.5em;
             
         }
         .plugin p {
@@ -128,8 +124,14 @@
                 font-size: 1.2em;
                 
             }
+            img.github {
+                height: 23px;
+            }
             small {
                 font-size: 0.7em;
+            }
+            .des {
+                display: none;
             }
 
             
@@ -150,11 +152,12 @@
 
         
         <div class="container">
-            <h1>Plugins</h1>
+            <h2>Plugins</h2>
 
             <div class="plugin">
                 <h3>Rolling Circle</h3>
                     <p>This plugin adds an awesome feature to your app, improving functionality and user experience.</p>
+                    <p class="des">This plugin adds an awesome feature to your app, improving functionality and user experience.</p>
                     <a href="https://github.com/curiouswalk/mscene"><img class="github"></a>
             </div>
 
