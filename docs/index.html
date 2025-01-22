@@ -39,28 +39,25 @@
             margin: 40px auto;
             padding: 20px;
             background-color: ghostwhite;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 14px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
             list-style-type: none;
             position: relative;
         }
         .container h2{
             font-size: 2em;
-/*             padding-left: 25px; */
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-             margin: 0;
-            padding: 15px 25px 0;
-/*             padding-bottom: 0px; */
+            text-shadow: 2px 2px 2px silver;
+            margin: 0;
+            padding: 15px 25px 5px;
+
         }
         .plugin {
             position: relative;
             background-color: white;
-/*             border: 2px solid whitesmoke; */
-            border-radius: 10px;
-            margin: 25px;
+            border-radius: 12px;
+            margin: 20px 25px 30px;
             padding: 25px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-/*             box-shadow: 0 2px 10px white; */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
         .plugin h3{
             margin: 0;
@@ -75,12 +72,13 @@
             height: 25px;
         }
         footer {
+            font-size: smaller;
             color: DimGrey;
             text-align: center;
             margin: 20px;
         }
 
-        @media screen and (max-width:1080px) {
+        @media screen and (max-width:720px) {
 
             header h1{
                 margin: 0;
@@ -94,33 +92,25 @@
             }
 
             .container {
-                max-width: 1080px;
+                max-width: 720px;
                 width: 90%;
                 margin: 30px auto;
                 padding: 5px;
-                background-color: ghostwhite;
                 border-radius: 12px;
-                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-                list-style-type: none;
-                position: relative;
-            }
 
-            .plugin {
-                position: relative;
-                background-color: white;
-                border: 1px solid whitesmoke;
-                border-radius: 10px;
-                margin: 15px 10px;
-                padding: 15px;
-                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             }
             .container h2{
                 margin: 0;
                 padding: 15px 20px 0;
-/*                 padding-bottom: 0px; */
                 font-size: 1.5em;
-                text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             }
+
+            .plugin {
+                margin: 15px 10px;
+                padding: 15px;
+                border-radius: 10px;
+            }
+            
             .plugin p {
                font-size: 0.9em;
                 margin: 8px 0;
@@ -132,15 +122,13 @@
             img.github {
                 height: 23px;
             }
-            small {
-                font-size: 0.7em;
+            footer {
+                font-size: x-small;
+                margin: 15px;
             }
             .des {
                 display: none;
             }
-
-            
-
             
         }
 
@@ -162,7 +150,8 @@
             <div class="plugin">
                 <h3>Rolling Circle</h3>
                     <p>This plugin adds an awesome feature to your app, improving functionality and user experience.</p>
-                    <p class="des">This plugin adds an awesome feature to your app, improving functionality and user experience.</p>
+                        <p class="des">aThis plugin adds an awesome feature to your app, improving functionality and user experience.</p>
+                    
                     <a href="https://github.com/curiouswalk/mscene"><img class="github"></a>
             </div>
 
@@ -183,7 +172,7 @@
         </div>
 
         <footer>
-            <small>Copyright &copy; 2025 <a href="https://www.curiouswalk.com/">CuriousWalk</a></small>
+            Copyright &copy; 2025 <a href="https://www.curiouswalk.com/">CuriousWalk</a>
         </footer>
    
     </body>
