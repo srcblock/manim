@@ -12,9 +12,9 @@ Plugins add features to Manim scenes.
 from mscene.plugins import *
 ```
 
-## List of Plugins
-
-- ### [rollingcircle]()
-- ### [fractal]()
+```bash
+pip install mscene
+mscene-plugins
+```
 
 
