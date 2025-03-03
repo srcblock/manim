@@ -9,7 +9,7 @@ Manim is an animation engine designed to program precise animations for science 
 > [!NOTE] 
 >The Manim Community Developers. *Manim &mdash; Mathematical Animation Framework* [Computer software].<br>[www.manim.community](https://www.manim.community)
 
-<a href="https://mscene.curiouswalk.com/colab"><img align="center" height="23" src="https://img.shields.io/badge/Colab-silver?logo=googlecolab&labelColor=grey"></a>&emsp;<a href="https://mscene.curiouswalk.com/guide"><img align="center" height="23" src="https://img.shields.io/badge/Guide-silver?logo=readthedocs&logoColor=blue&labelColor=grey"></a>
+<a href="https://mscene.curiouswalk.com/colab"><img align="center" height="24" src="https://img.shields.io/badge/Colab-silver?logo=googlecolab&labelColor=grey"></a>&emsp;<a href="https://mscene.curiouswalk.com/docs"><img align="center" height="24" src="https://img.shields.io/badge/Docs-silver?logo=readthedocs&logoColor=blue&labelColor=grey"></a>
 
 ## Manim in Colab
 
