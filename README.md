@@ -2,7 +2,7 @@
 
 # Mscene
 
-A Python library for programming animation scenes with Manim in Google Colab to create science videos directly in the browser.<br>&#10024; [mscene.curiouswalk.com](https://mscene.curiouswalk.com)
+A Python library for programming animation scenes with Manim in Google Colab to create science videos directly in the browser. &#10024;&nbsp;[mscene.curiouswalk.com](https://mscene.curiouswalk.com)
 
 Manim is an animation engine designed to program precise animations for science videos.<br>Google Colab (Colaboratory) is a hosted Jupyter Notebook service that requires no setup and provides free access to computing resources, including GPUs and TPUs.
 
