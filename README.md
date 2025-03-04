@@ -11,9 +11,11 @@ Manim is an animation engine designed to program precise animations for science 
 
 <a href="https://mscene.curiouswalk.com/colab"><img align="center" height="24" src="https://img.shields.io/badge/Colab-silver?logo=googlecolab&labelColor=grey"></a>&emsp;<a href="https://mscene.curiouswalk.com/docs"><img align="center" height="24" src="https://img.shields.io/badge/Docs-silver?logo=readthedocs&logoColor=blue&labelColor=grey"></a>
 
-## Manim in Colab
+## Quick Start
 
-Create a new Colab notebook at *[colab.new](http://colab.new)* and run the cells below.
+### Manim in Colab
+
+Create a new Colab notebook at *[colab.new](https://colab.new)* and run the cells below.
 
 **Install & Import Mscene**
 ```python
@@ -41,7 +43,9 @@ class ExampleScene(Scene):
         self.wait(1.5)
 ```
 
-## Mscene Plugins
+### Mscene Plugins
+
+Plugins extend Manim with additional features.
 
 **Add & Import Plugins**
 
