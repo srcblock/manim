@@ -56,8 +56,8 @@ Plugins extend Manim with additional features.
 **View Mscene [Plugins](https://mscene.curiouswalk.com/plugins)**
 
 ```python
-%%manim -qm PluginScene
-class PluginScene(Scene):
+%%manim -qm FractalScene
+class FractalScene(Scene):
     def construct(self):
         ks = KochSnowflake(2)
         self.add(ks)
